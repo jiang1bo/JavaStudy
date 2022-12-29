@@ -8,7 +8,7 @@ public class Exception1 {
         int a = 3 / 0;
         System.out.println(a);
         } catch (ArithmeticException e) {
-            System.out.println("不为零");
+            System.out.println("分母与被除数不为零");
         }
 
     }
